@@ -1,16 +1,39 @@
-# book_review
+# 📚 Book Review App
 
-A new Flutter project.
+A Flutter mobile application for discovering, reviewing, and discussing books, powered by **Firebase** for backend services.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### Frontend (Flutter)
+- **Home Screen:** Browse books, search by title/author, filter by genre, rating, and popularity.
+- **Book Details:** View book info, user reviews, and discussions. Add your own review.
+- **User Profile:** Manage profile, view posted reviews, and save favorite books.
+- **Navigation & State:** Smooth transitions with GoRouter/Flutter Router. State managed via Provider, Riverpod, or Bloc.
+- **UI/UX:** Modern, responsive layout using Material 3 / Cupertino design.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Backend (Firebase)
+- **Authentication:** Signup/Login with Firebase Auth and secure session management.
+- **Database:** Firestore stores users, books, reviews, and comments.
+- **Book & Review Management:** Add new books (admin), post reviews, and filter/sort books.
+- **Comments & Discussions:** Post and view threaded or flat comments under reviews.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Collaboration
+- GitHub repository with feature branches.
+- Pull requests with code reviews.
+- Meaningful commit messages for team collaboration.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** Flutter, Dart
+- **Backend:** Firebase (Authentication, Firestore, Cloud Functions)
+- **State Management:** Provider / Riverpod / Bloc
+
+---
+
+## 📌 Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Hewialex/Book-Review-App.git
